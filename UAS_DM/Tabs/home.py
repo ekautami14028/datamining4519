@@ -25,7 +25,7 @@ def generate_plots(df):
 # Load dataset
 def load_data():
     # Load dataset sesuai kebutuhan
-    df = pd.read_csv('Penyakit_Paru.csv')
+    df = pd.read_csv('/mount/src/datamining4519/UAS_DM/Penyakit_Paru.csv')
     return df
 
 def app():
