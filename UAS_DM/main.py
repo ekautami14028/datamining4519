@@ -1,7 +1,11 @@
 # import library yang dibutuhkan
 
+import sys
 import streamlit as st
 from web_functions import load_data
+
+# Menambahkan folder ke sys.path agar Python bisa mengimpor modul dari folder tersebut
+sys.path.append(os.path.abspath('/mount/src/datamining4519/UAS_DM'))
 
 from UAS_DM.Tabs import home, predict, visualise
 
