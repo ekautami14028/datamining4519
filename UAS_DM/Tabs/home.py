@@ -32,7 +32,6 @@ def load_data():
 def app():
     # Judul halaman aplikasi
     st.title("APLIKASI PREDIKSI TERKENA PENYAKIT PARU-PARU")
-    st.write("Selamat datang di halaman utama!")
     
     # Load dataset
     df = load_data()
