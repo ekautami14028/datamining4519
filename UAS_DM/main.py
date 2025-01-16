@@ -3,7 +3,7 @@
 import streamlit as st
 from web_functions import load_data
 
-from Tabs import home, predict, visualise
+from UAS_DM.Tabs import home, predict, visualise
 
 Tabs= {
     "Home" : home,
