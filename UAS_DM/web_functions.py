@@ -8,7 +8,7 @@ import streamlit as st
 def load_data():
 
     # load dataset
-    df = pd.read_csv('Penyakit_Paru.csv')
+    df = pd.read_csv('/mount/src/datamining4519/UAS_DM/Penyakit_Paru.csv')
 
     x = df[["Usia", "Jenis_Kelamin", "Merokok", "Bekerja", "Rumah_Tangga", "Aktivitas_Begadang", "Aktivitas_Olahraga", "Asuransi", "Penyakit_Bawaan"]]
     y = df[['Hasil']]
