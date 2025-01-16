@@ -1,5 +1,6 @@
 # import library yang dibutuhkan
 
+import os
 import sys
 import streamlit as st
 from web_functions import load_data
