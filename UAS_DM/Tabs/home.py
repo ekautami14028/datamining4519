@@ -31,12 +31,13 @@ def load_data():
 def app():
     # Judul halaman aplikasi
     st.title("APLIKASI PREDIKSI TERKENA PENYAKIT PARU-PARU")
+    st.write("Selamat datang di halaman utama!")
     
     # Load dataset
     df = load_data()
 
     # Tampilkan gambar
-    st.image('paruu.jpeg', use_column_width=True)
+    st.image('/mount/src/datamining4519/UAS_DM/paruu.jpeg', use_column_width=True)
 
     # Tampilkan keterangan
     st.write("Penyakit paru-paru adalah salah satu penyebab kematian tertinggi di dunia. "
