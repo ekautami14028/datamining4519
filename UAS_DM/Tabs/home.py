@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from PIL import Image
 import pandas as pd
+import os
 
 def generate_plots(df):
     # Plot histogram
@@ -37,8 +38,9 @@ def app():
     df = load_data()
 
     # Tampilkan gambar
-    st.image('/mount/src/datamining4519/UAS_DM/paruu.jpeg', use_column_width=True)
-
+    file_path = "/mount/src/datamining4519/UAS_DM/paruu.jpeg"
+    st.image(file_path, caption="Sample Image", use_column_width=True)
+    
     # Tampilkan keterangan
     st.write("Penyakit paru-paru adalah salah satu penyebab kematian tertinggi di dunia. "
              "Penyakit ini dapat disebabkan oleh berbagai faktor. Penyakit paru-paru merupakan "
