@@ -8,7 +8,7 @@ from web_functions import load_data
 # Menambahkan folder ke sys.path agar Python bisa mengimpor modul dari folder tersebut
 sys.path.append(os.path.abspath('/mount/src/datamining4519/UAS_DM'))
 
-from UAS_DM.Tabs import home, predict, visualise
+from UAS_DM import home, predict, visualise
 
 Tabs= {
     "Home" : home,
