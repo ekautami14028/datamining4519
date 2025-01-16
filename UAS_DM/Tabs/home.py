@@ -38,7 +38,7 @@ def app():
 
     # Tampilkan gambar
     file_path = "/mount/src/datamining4519/UAS_DM/paruu.jpeg"
-    st.image(file_path, caption="Sample Image", use_column_width=True)
+    st.image(file_path, caption="Paru-Paru", use_column_width=True)
     
     # Tampilkan keterangan
     st.write("Penyakit paru-paru adalah salah satu penyebab kematian tertinggi di dunia. "
